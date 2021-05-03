@@ -2,7 +2,6 @@ import cv2
 import numpy as np
 import os
 from skimage import transform
-import random
 
 # 输入视频文件目录
 mv_file_mv = 'H:/深度学习/新建文件夹 (5)/6/'
