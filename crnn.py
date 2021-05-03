@@ -7,7 +7,7 @@ import resnet as res
 
 
 # 超参数
-Epoch = 200
+Epoch = 100
 Batch = 8
 Time_step = 10     # 考虑n个时间关联序列
 class_num = 6      # 种类
