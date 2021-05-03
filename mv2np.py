@@ -4,9 +4,9 @@ import os
 from skimage import transform
 
 # 输入视频文件目录
-mv_file_mv = 'H:/深度学习/新建文件夹 (5)/6/'
+mv_file_mv = './mv/'
 # 输出numpy文件目录
-mv_file_np = 'H:/深度学习/crnn/traindata2/'
+mv_file_np = './traindata/'
 
 mv_name_list = os.listdir(mv_file_mv)
 
