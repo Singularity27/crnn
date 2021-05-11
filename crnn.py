@@ -29,8 +29,8 @@ class CustomDataset(torch.utils.data.Dataset):
         return len(self.file_name_list)
 
 
-train_dataset = CustomDataset(root_dir='./testdata/')
-test_dataset = CustomDataset(root_dir='./traindata/')
+train_dataset = CustomDataset(root_dir='./traindata/')
+test_dataset = CustomDataset(root_dir='./testdata/')
 
 train_loader = DataLoader(dataset=train_dataset, batch_size=Batch, shuffle=True)
 test_loader = DataLoader(dataset=test_dataset, batch_size=Batch, shuffle=False)
